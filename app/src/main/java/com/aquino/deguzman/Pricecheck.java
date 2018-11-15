@@ -41,97 +41,97 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
         {
             state=new String[]{"EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==1)
         {
             state=new String[]{"Baclaran", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==2)
         {
             state=new String[]{"Baclaran", "EDSA", "Gil Puyat", "Vito Cruz", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==3)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Vito Cruz", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==4)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==5)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==6)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==7)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==8)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==9)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==10)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==11)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==12)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==13)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==14)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Blumentritt", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==15)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "Abad Santos", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
+                    "Blumentritt", "Abad Santos", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==16)
         {
@@ -143,21 +143,21 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "Abad Santos", "R. Papa", "5th Ave", "Balintawak", "Roosevelt"};
+                    "Blumentritt", "Abad Santos", "R. Papa", "5th Avenue", "Balintawak", "Roosevelt"};
         }
 
         if(position==18)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Roosevelt"};
+                    "Blumentritt", "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Roosevelt"};
         }
 
         if(position==19)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak"};
+                    "Blumentritt", "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak"};
         }
 
 
@@ -866,10 +866,1504 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                 switch (country) {
                     case "Baclaran":
                         switch (state) {
+                            case "Baclaran":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
                             case "EDSA":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
                             case "Libertad":
-                                t1.setText("Function in progress");
-                                t2.setText("Stored Value Ticket Price");
+                            case "Gil Puyat":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                                t1.setText("P18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Carriedo":
+                            case "Doroteo Jose":
+                                t1.setText("P19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Bambang":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Tayuman":
+                            case "Blumentritt":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "R. Papa":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("P24");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P25");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P27");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P29");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "EDSA":
+                        switch (state) {
+                            case "EDSA":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "Libertad":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "Pedro Gil":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Carriedo":
+                                t1.setText("P18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                            case "Bambang":
+                                t1.setText("P19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Tayuman":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Blumentritt":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                            case "R. Papa":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P24");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P27");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P29");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Libertad":
+                        switch (state) {
+                            case "Libertad":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                            case "Gil Puyat":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "Vito Cruz":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "Pedro Gil":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Carriedo":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                            case "Bambang":
+                                t1.setText("P18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Tayuman":
+                                t1.setText("P19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Blumentritt":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                            case "R. Papa":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P26");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P28");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Gil Puyat":
+                        switch (state) {
+                            case "Gil Puyat":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Vito Cruz":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "EDSA":
+                            case "Quirino":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                            case "UN Ave":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "Carriedo":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+
+                            case "Bambang":
+                            case "Tayuman":
+                                t1.setText("P18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Blumentritt":
+                                t1.setText("P19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+
+                            case "R. Papa":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P25");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P27");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Vito Cruz":
+                        switch (state) {
+                            case "Vito Cruz":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                            case "Quirino":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Pedro Gil":
+                            case "UN Ave":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "EDSA":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "Carriedo":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Bambang":
+                            case "Tayuman":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Blumentritt":
+                                t1.setText("P18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                                t1.setText("P19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "R. Papa":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P26");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Quirino":
+                        switch (state) {
+                            case "Quirino":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                            case "Pedro Gil":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                            case "UN Ave":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Central":
+                            case "Carriedo":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "EDSA":
+                            case "Doroteo Jose":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Bambang":
+                            case "Tayuman":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Blumentritt":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                                t1.setText("P18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "R. Papa":
+                                t1.setText("P19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P25");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Pedro Gil":
+                        switch (state) {
+                            case "Pedro Gil":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "UN Ave":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                            case "Central":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Gil Puyat":
+                            case "Carriedo":
+                            case "Doroteo Jose":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                            case "Bambang":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "Tayuman":
+                            case "Blumentritt":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "R. Papa":
+                                t1.setText("P18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("P19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P24");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "UN Ave":
+                        switch (state) {
+                            case "UN Ave":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                            case "Central":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                            case "Quirino":
+                            case "Carriedo":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                            case "Doroteo Jose":
+                            case "Bambang":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Tayuman":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                            case "Blumentritt":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "Abad Santos":
+                            case "R. Papa":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Central":
+                        switch (state) {
+                            case "Central":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                            case "Carriedo":
+                            case "Doroteo Jose":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                            case "Bambang":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "Tayuman":
+                            case "Blumentritt":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                            case "Abad Santos":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Gil Puyat":
+                            case "R. Papa":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                            case "5th Avenue":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "Monumento":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Carriedo":
+                        switch (state) {
+                            case "Carriedo":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "Doroteo Jose":
+                            case "Bambang":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                            case "Tayuman":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "Pedro Gil":
+                            case "Blumentritt":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                            case "Abad Santos":
+                            case "R. Papa":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                            case "5th Avenue":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Monumento":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Doroteo Jose":
+                        switch (state) {
+                            case "Doroteo Jose":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "Carriedo":
+                            case "Bambang":
+                            case "Tayuman":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Blumentritt":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                            case "UN Ave":
+                            case "Abad Santos":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "R. Papa":
+                            case "5th Avenue":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                            case "Monumento":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "EDSA":
+                            case "Balintawak":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Roosevelt":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Bambang":
+                        switch (state) {
+                            case "Bambang":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Carriedo":
+                            case "Doroteo Jose":
+                            case "Tayuman":
+                            case "Blumentritt":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "Abad Santos":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                            case "R. Papa":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                            case "5th Avenue":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "Monumento":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Gil Puyat":
+                            case "Balintawak":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "Roosevelt":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Tayuman":
+                        switch (state) {
+                            case "Tayuman":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                            case "Bambang":
+                            case "Blumentritt":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Carriedo":
+                            case "Abad Santos":
+                            case "R. Papa":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "5th Avenue":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                            case "Monumento":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "Pedro Gil":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                            case "Balintawak":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                            case "Roosevelt":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Blumentritt":
+                        switch (state) {
+                            case "Blumentritt":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Bambang":
+                            case "Tayuman":
+                            case "Abad Santos":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                            case "R. Papa":
+                            case "5th Avenue":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "Carriedo":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                            case "UN Ave":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "Balintawak":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                            case "Roosevelt":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "EDSA":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Abad Santos":
+                        switch (state) {
+                            case "Abad Santos":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Blumentritt":
+                            case "R. Papa":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Bambang":
+                            case "Tayuman":
+                            case "5th Avenue":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                            case "Monumento":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "Carriedo":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                            case "UN Ave":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                            case "Roosevelt":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "EDSA":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "R. Papa":
+                        switch (state) {
+                            case "R. Papa":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                            case "5th Avenue":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Tayuman":
+                            case "Blumentritt":
+                            case "Monumento":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Bambang":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Carriedo":
+                            case "Doroteo Jose":
+                            case "Balintawak":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                            case "Roosevelt":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Gil Puyat":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "5th Avenue":
+                        switch (state) {
+                            case "5th Avenue":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "R. Papa":
+                            case "Monumento":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Tayuman":
+                            case "Blumentritt":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                            case "Bambang":
+                            case "Balintawak":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Carriedo":
+                            case "Roosevelt":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Gil Puyat":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                                t1.setText("P24");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Monumento":
+                        switch (state) {
+                            case "Monumento":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("P12");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                            case "Balintawak":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "R. Papa":
+                                t1.setText("P14");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Tayuman":
+                            case "Blumentritt":
+                            case "Roosevelt":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Bambang":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Carriedo":
+                            case "Doroteo Jose":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                            case "Gil Puyat":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "EDSA":
+                                t1.setText("P24");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                                t1.setText("P25");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Balintawak":
+                        switch (state) {
+                            case "Balintawak":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                            case "Roosevelt":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "R. Papa":
+                            case "5th Avenue":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Blumentritt":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Bambang":
+                            case "Tayuman":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "Carriedo":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                            case "UN Ave":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P24");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                                t1.setText("P25");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                                t1.setText("P26");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "EDSA":
+                                t1.setText("P27");
+                                t2.setText("Stored Value Card Price");
+                                break;
+                        }
+
+                    case "Roosevelt":
+                        switch (state) {
+                            case "Roosevelt":
+                                t1.setText("P11");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Balintawak":
+                                t1.setText("P13");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Monumento":
+                                t1.setText("P15");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "5th Avenue":
+                                t1.setText("P16");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "R. Papa":
+                                t1.setText("P17");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Abad Santos":
+                                t1.setText("18");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Blumentritt":
+                                t1.setText("19");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Bambang":
+                            case "Tayuman":
+                                t1.setText("P20");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Doroteo Jose":
+                                t1.setText("P21");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Central":
+                            case "Carriedo":
+                                t1.setText("P22");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "UN Ave":
+                                t1.setText("P23");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Pedro Gil":
+                                t1.setText("P24");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Quirino":
+                                t1.setText("P25");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Vito Cruz":
+                                t1.setText("P26");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Gil Puyat":
+                                t1.setText("P27");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Libertad":
+                                t1.setText("P28");
+                                t2.setText("Stored Value Card Price");
+                                break;
+
+                            case "Baclaran":
+                            case "EDSA":
+                                t1.setText("P29");
+                                t2.setText("Stored Value Card Price");
+                                break;
                         }
                 }
                 break;
