@@ -87,6 +87,12 @@
             <!--android:layout_height="34dp"-->
             <!--app:srcCompat="@color/colorSJT" />-->
 
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sjt" />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -103,12 +109,6 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:text="TextView" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/sjt" />
 
 
     </android.support.v7.widget.CardView>
