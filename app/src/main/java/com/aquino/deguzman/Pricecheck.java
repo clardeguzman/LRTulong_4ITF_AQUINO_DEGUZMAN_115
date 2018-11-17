@@ -47,97 +47,97 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
         {
             state=new String[]{"EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==1)
         {
             state=new String[]{"Baclaran", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==2)
         {
             state=new String[]{"Baclaran", "EDSA", "Gil Puyat", "Vito Cruz", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==3)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Vito Cruz", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==4)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Quirino", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==5)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Pedro Gil",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==6)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==7)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==8)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==9)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Doroteo Jose", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==10)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Bambang", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==11)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Tayuman", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==12)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Blumentritt",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==13)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==14)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "R. Papa", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Blumentritt", "R. Papa", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==15)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "Abad Santos", "5th Avenue", "Monumento", "Balintawak", "Roosevelt"};
+                    "Blumentritt", "Abad Santos", "5th Ave", "Monumento", "Balintawak", "Roosevelt"};
         }
         if(position==16)
         {
@@ -149,21 +149,21 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "Abad Santos", "R. Papa", "5th Avenue", "Balintawak", "Roosevelt"};
+                    "Blumentritt", "Abad Santos", "R. Papa", "5th Ave", "Balintawak", "Roosevelt"};
         }
 
         if(position==18)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Roosevelt"};
+                    "Blumentritt", "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Roosevelt"};
         }
 
         if(position==19)
         {
             state=new String[]{"Baclaran", "EDSA", "Libertad", "Gil Puyat", "Vito Cruz", "Quirino",
                     "Pedro Gil", "UN Ave", "Central", "Carriedo", "Doroteo Jose", "Bambang", "Tayuman",
-                    "Blumentritt", "Abad Santos", "R. Papa", "5th Avenue", "Monumento", "Balintawak"};
+                    "Blumentritt", "Abad Santos", "R. Papa", "5th Ave", "Monumento", "Balintawak"};
         }
 
 
@@ -219,7 +219,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
@@ -253,7 +253,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
@@ -287,7 +287,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
 
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
@@ -321,7 +321,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
 
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
@@ -355,7 +355,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Single Journey Ticket Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
@@ -385,7 +385,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P20");
                                 t2.setText("Single Journey Ticket Price");
                                 break;
@@ -419,7 +419,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                                 t1.setText("P20");
                                 t2.setText("Single Journey Ticket Price");
@@ -453,7 +453,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                                 t1.setText("P20");
                                 t2.setText("Single Journey Ticket Price");
@@ -487,7 +487,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Libertad":
                             case "Gil Puyat":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
                                 t1.setText("P20");
@@ -521,7 +521,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Baclaran":
                             case "Libertad":
                             case "Gil Puyat":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
                                 t1.setText("P20");
@@ -546,7 +546,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P15");
                                 t2.setText("Single Journey Ticket Price");
                                 break;
@@ -579,7 +579,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P15");
                                 t2.setText("Single Journey Ticket Price");
                                 break;
@@ -608,7 +608,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                                 t1.setText("P15");
                                 t2.setText("Single Journey Ticket Price");
@@ -641,7 +641,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Tayuman":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                                 t1.setText("P15");
                                 t2.setText("Single Journey Ticket Price");
@@ -675,7 +675,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Tayuman":
                             case "Blumentritt":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                                 t1.setText("P15");
                                 t2.setText("Single Journey Ticket Price");
@@ -708,7 +708,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Tayuman":
                             case "Blumentritt":
                             case "Abad Santos":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
                                 t1.setText("P15");
@@ -734,7 +734,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
                         }
 
-                    case "5th Avenue":
+                    case "5th Ave":
                         switch (state) {
                             case "Doroteo Jose":
                             case "Bambang":
@@ -774,7 +774,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Balintawak":
                             case "Roosevelt":
                                 t1.setText("P15");
@@ -805,7 +805,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Balintawak":
                         switch (state) {
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                             case "Monumento":
                             case "Roosevelt":
                                 t1.setText("P15");
@@ -849,7 +849,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P20");
                                 t2.setText("Single Journey Ticket Price");
                                 break;
@@ -949,7 +949,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P24");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1036,7 +1036,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P23");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1119,7 +1119,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P22");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1200,7 +1200,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P22");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1279,7 +1279,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P21");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1354,7 +1354,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P20");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1425,7 +1425,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P19");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1492,7 +1492,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("18");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1554,7 +1554,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
 
                             case "EDSA":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P17");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1611,7 +1611,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
 
                             case "Gil Puyat":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P16");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1672,7 +1672,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
 
                             case "Quirino":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P15");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1734,7 +1734,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
 
                             case "Pedro Gil":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P15");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1791,7 +1791,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
 
                             case "Central":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P14");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1852,7 +1852,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
 
                             case "Doroteo Jose":
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P13");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1918,7 +1918,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
 
                             case "Bambang":
                             case "Tayuman":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P13");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -1982,7 +1982,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
 
                             case "Abad Santos":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P12");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -2049,9 +2049,9 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
                         }
 
-                    case "5th Avenue":
+                    case "5th Ave":
                         switch (state) {
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P11");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -2135,7 +2135,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P12");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -2225,7 +2225,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
 
                             case "R. Papa":
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P15");
                                 t2.setText("Stored Value Card Price");
                                 break;
@@ -2307,7 +2307,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 t2.setText("Stored Value Card Price");
                                 break;
 
-                            case "5th Avenue":
+                            case "5th Ave":
                                 t1.setText("P16");
                                 t2.setText("Stored Value Card Price");
                                 break;
