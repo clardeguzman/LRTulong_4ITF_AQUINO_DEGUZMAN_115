@@ -1,11 +1,14 @@
 package com.aquino.deguzman;
 
+import android.annotation.SuppressLint;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -21,6 +24,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pricecheck);
+
+
         s1=(Spinner)findViewById(R.id.spinner);
         s2=(Spinner)findViewById(R.id.spinner2);
         t1=(TextView)findViewById(R.id.textView);
@@ -34,6 +39,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
         b2.setOnClickListener(this);
 
     }
+
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -172,15 +178,19 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
 
     }
 
+    @SuppressLint("ResourceAsColor")
     @Override
     public void onClick(View v) {
-        String country=s1.getSelectedItem().toString();
-        String state=s2.getSelectedItem().toString();
+        String country = s1.getSelectedItem().toString();
+        String state = s2.getSelectedItem().toString();
+        ImageView im=(ImageView)findViewById(R.id.imageView2);
 
 
         switch (v.getId()) {
 
             case R.id.button:
+                im.setImageResource(R.drawable.sjt);
+                t2.setText("Single Journey Ticket Price");
                 switch (country) {
                     case "Baclaran":
                         switch (state) {
@@ -190,7 +200,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Vito Cruz":
                             case "Quirino":
                                 t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+
                                 break;
 
                             case "Pedro Gil":
@@ -200,7 +210,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Doroteo Jose":
                             case "Bambang":
                                 t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+
                                 break;
 
                             case "Tayuman":
@@ -212,7 +222,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Balintawak":
                             case "Roosevelt":
                                 t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+
                                 break;
                         }
 
@@ -225,7 +235,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Quirino":
                             case "Pedro Gil":
                                 t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+
                                 break;
 
                             case "UN Ave":
@@ -235,7 +245,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Bambang":
                             case "Tayuman":
                                 t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+
                                 break;
 
                             case "Blumentritt":
@@ -863,6 +873,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                 break;
 
             case R.id.button2:
+                im.setImageResource(R.drawable.svc);
+
                 switch (country) {
                     case "Baclaran":
                         switch (state) {
@@ -874,6 +886,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "EDSA":
                                 t1.setText("P12");
                                 t2.setText("Stored Value Card Price");
+                                t1.setTextColor(R.color.white);
+                                t2.setTextColor(R.color.white);
                                 break;
 
                             case "Libertad":
@@ -2372,5 +2386,11 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
 
                 break;
         }
+
+
+
+
+
+
     }
 }
