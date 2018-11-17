@@ -191,6 +191,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
             case R.id.button:
                 im.setImageResource(R.drawable.sjt);
                 t2.setText("Single Journey Ticket Price");
+                t1.setTextColor(Color.parseColor("#000000"));
+                t2.setTextColor(Color.parseColor("#000000"));
                 switch (country) {
                     case "Baclaran":
                         switch (state) {
@@ -874,7 +876,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
 
             case R.id.button2:
                 im.setImageResource(R.drawable.svc);
-
+                t1.setTextColor(Color.parseColor("#FFFFFF"));
+                t2.setTextColor(Color.parseColor("#FFFFFF"));
                 switch (country) {
                     case "Baclaran":
                         switch (state) {
@@ -886,8 +889,6 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "EDSA":
                                 t1.setText("P12");
                                 t2.setText("Stored Value Card Price");
-                                t1.setTextColor(R.color.white);
-                                t2.setTextColor(R.color.white);
                                 break;
 
                             case "Libertad":
