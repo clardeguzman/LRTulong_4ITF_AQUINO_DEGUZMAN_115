@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
-    private LinearLayout button;
+    private LinearLayout button, buttonSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,10 +21,23 @@ public class MainActivity extends AppCompatActivity {
                 openActivity2();
             }
         });
+
+        buttonSettings = (LinearLayout) findViewById(R.id.button5);
+        buttonSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivitySettings();
+            }
+        });
     }
 
     public void openActivity2() {
         Intent intent = new Intent(this, Pricecheck.class);
+        startActivity(intent);
+    }
+
+    public void openActivitySettings() {
+        Intent intent = new Intent(this, Settings.class);
         startActivity(intent);
     }
 }
