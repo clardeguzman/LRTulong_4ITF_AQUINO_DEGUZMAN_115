@@ -13,6 +13,6 @@ public class Map extends AppCompatActivity {
         setContentView(R.layout.activity_map);
 
         PhotoView photoView = (PhotoView) findViewById(R.id.photo_view);
-        photoView.setImageResource(R.drawable.mapmanila);
+        photoView.setImageResource(R.drawable.map);
     }
 }

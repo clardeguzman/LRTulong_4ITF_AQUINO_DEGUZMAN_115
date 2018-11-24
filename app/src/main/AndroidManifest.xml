@@ -20,6 +20,9 @@
         <activity android:name=".Settings" />
         <activity android:name=".About" />
         <activity android:name=".Map" />
+        <activity android:name=".Remind" />
+        <activity android:name=".Reminders" />
+        <activity android:name=".Train"/>
+        <activity android:name=".Landmarks"/>
     </application>
-
 </manifest>

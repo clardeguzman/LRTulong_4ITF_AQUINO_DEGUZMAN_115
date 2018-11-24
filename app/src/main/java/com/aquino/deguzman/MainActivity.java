@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
-    private LinearLayout button, buttonSettings, buttonMap;
+    private LinearLayout button, buttonSettings, buttonMap, buttonRemind, buttonLandmarks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,22 @@ public class MainActivity extends AppCompatActivity {
                 openActivityMap();
             }
         });
+
+        buttonRemind = (LinearLayout) findViewById(R.id.button4);
+        buttonRemind.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityReminders();
+            }
+        });
+
+        buttonLandmarks = (LinearLayout) findViewById(R.id.button2);
+        buttonLandmarks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityLandmarks();
+            }
+        });
     }
 
     public void openActivity2() {
@@ -51,6 +67,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void openActivityMap() {
         Intent intent = new Intent(this, Map.class);
+        startActivity(intent);
+    }
+
+    public void openActivityReminders() {
+        Intent intent = new Intent(this, Reminders.class);
+        startActivity(intent);
+    }
+
+    public void openActivityLandmarks() {
+        Intent intent = new Intent(this, Landmarks.class);
         startActivity(intent);
     }
 }
