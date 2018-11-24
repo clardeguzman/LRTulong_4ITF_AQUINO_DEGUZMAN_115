@@ -16,9 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Pricecheck"></activity>
-        <activity android:name=".Settings"></activity>
-        <activity android:name=".About"></activity>
+        <activity android:name=".Pricecheck" />
+        <activity android:name=".Settings" />
+        <activity android:name=".About" />
+        <activity android:name=".Map" />
     </application>
 
 </manifest>
