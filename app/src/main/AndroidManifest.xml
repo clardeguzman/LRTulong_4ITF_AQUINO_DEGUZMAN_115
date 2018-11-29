@@ -28,5 +28,6 @@
         <activity android:name=".Roosevelt"/>
         <activity android:name=".Balintawak"/>
         <activity android:name=".Monumento"/>
+        <activity android:name=".Fifthave"/>
     </application>
 </manifest>
