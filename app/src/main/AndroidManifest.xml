@@ -24,5 +24,6 @@
         <activity android:name=".Reminders" />
         <activity android:name=".Train"/>
         <activity android:name=".Landmarks"/>
+        <activity android:name=".Northave"/>
     </application>
 </manifest>
