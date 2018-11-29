@@ -25,5 +25,6 @@
         <activity android:name=".Train"/>
         <activity android:name=".Landmarks"/>
         <activity android:name=".Northave"/>
+        <activity android:name=".Roosevelt"/>
     </application>
 </manifest>
