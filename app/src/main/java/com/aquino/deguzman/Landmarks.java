@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 public class Landmarks extends AppCompatActivity{
-    private Button buttonNorthAve, buttonRoosevelt, buttonBalintawak, buttonMonumento, buttonFifth;
+    private Button buttonNorthAve, buttonRoosevelt, buttonBalintawak, buttonMonumento, buttonFifth, buttonRpapa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +54,14 @@ public class Landmarks extends AppCompatActivity{
                 openActivityFifth();
             }
         });
+
+        buttonRpapa = (Button) findViewById(R.id.button_rpapa);
+        buttonRpapa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityRpapa();
+            }
+        });
     }
 
 
@@ -79,6 +87,11 @@ public class Landmarks extends AppCompatActivity{
 
     public void openActivityFifth() {
         Intent intent = new Intent(this, Fifthave.class);
+        startActivity(intent);
+    }
+
+    public void openActivityRpapa() {
+        Intent intent = new Intent(this, Rpapa.class);
         startActivity(intent);
     }
 }

@@ -29,5 +29,6 @@
         <activity android:name=".Balintawak"/>
         <activity android:name=".Monumento"/>
         <activity android:name=".Fifthave"/>
+        <activity android:name=".Rpapa"/>
     </application>
 </manifest>
