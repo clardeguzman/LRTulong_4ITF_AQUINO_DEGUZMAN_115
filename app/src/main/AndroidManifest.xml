@@ -30,5 +30,6 @@
         <activity android:name=".Monumento"/>
         <activity android:name=".Fifthave"/>
         <activity android:name=".Rpapa"/>
+        <activity android:name=".AbadSantos"/>
     </application>
 </manifest>
