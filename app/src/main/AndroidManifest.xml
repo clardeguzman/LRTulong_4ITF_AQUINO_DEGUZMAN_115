@@ -26,5 +26,6 @@
         <activity android:name=".Landmarks"/>
         <activity android:name=".Northave"/>
         <activity android:name=".Roosevelt"/>
+        <activity android:name=".Balintawak"/>
     </application>
 </manifest>
