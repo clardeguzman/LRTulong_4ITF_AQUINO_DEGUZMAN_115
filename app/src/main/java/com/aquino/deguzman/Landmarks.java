@@ -9,7 +9,7 @@ import android.widget.Button;
 public class Landmarks extends AppCompatActivity{
     private Button buttonNorthAve, buttonRoosevelt, buttonBalintawak, buttonMonumento, buttonFifth, buttonRpapa, buttonAbad,
     buttonBlumentritt, buttonTayuman, buttonBambang, buttonDjose, buttonCarriedo, buttonCentral, buttonUN, buttonPedrogil,
-    buttonQuirino;
+    buttonQuirino, buttonGilpuyat, buttonVitocruz, buttonLibertad, buttonEdsa, buttonBaclaran;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -143,6 +143,46 @@ public class Landmarks extends AppCompatActivity{
                 openActivityQuirino();
             }
         });
+
+        buttonVitocruz = (Button) findViewById(R.id.button_vitocruz);
+        buttonVitocruz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityVitocruz();
+            }
+        });
+
+        buttonGilpuyat = (Button) findViewById(R.id.button_gilpuyat);
+        buttonGilpuyat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityGilpuyat();
+            }
+        });
+
+        buttonLibertad = (Button) findViewById(R.id.button_libertad);
+        buttonLibertad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityLibertad();
+            }
+        });
+
+        buttonEdsa = (Button) findViewById(R.id.button_edsa);
+        buttonEdsa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityEdsa();
+            }
+        });
+
+        buttonBaclaran = (Button) findViewById(R.id.button_baclaran);
+        buttonBaclaran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityBaclaran();
+            }
+        });
     }
 
 
@@ -223,6 +263,31 @@ public class Landmarks extends AppCompatActivity{
 
     public void openActivityQuirino() {
         Intent intent = new Intent(this, Quirino.class);
+        startActivity(intent);
+    }
+
+    public void openActivityVitocruz() {
+        Intent intent = new Intent(this, VitoCruz.class);
+        startActivity(intent);
+    }
+
+    public void openActivityGilpuyat() {
+        Intent intent = new Intent(this, Gilpuyat.class);
+        startActivity(intent);
+    }
+
+    public void openActivityLibertad() {
+        Intent intent = new Intent(this, Libertad.class);
+        startActivity(intent);
+    }
+
+    public void openActivityEdsa() {
+        Intent intent = new Intent(this, Edsa.class);
+        startActivity(intent);
+    }
+
+    public void openActivityBaclaran() {
+        Intent intent = new Intent(this, Baclaran.class);
         startActivity(intent);
     }
 }

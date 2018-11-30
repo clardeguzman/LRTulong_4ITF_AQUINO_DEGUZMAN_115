@@ -40,5 +40,10 @@
         <activity android:name=".UNAve"/>
         <activity android:name=".PedroGil"/>
         <activity android:name=".Quirino"/>
+        <activity android:name=".Gilpuyat"/>
+        <activity android:name=".VitoCruz"/>
+        <activity android:name=".Libertad"/>
+        <activity android:name=".Edsa"/>
+        <activity android:name=".Baclaran"/>
     </application>
 </manifest>
