@@ -5,10 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 
 public class Landmarks extends AppCompatActivity{
-    private Button buttonNorthAve, buttonRoosevelt, buttonBalintawak, buttonMonumento, buttonFifth, buttonRpapa, buttonAbad;
+    private Button buttonNorthAve, buttonRoosevelt, buttonBalintawak, buttonMonumento, buttonFifth, buttonRpapa, buttonAbad,
+    buttonBlumentritt, buttonTayuman, buttonBambang, buttonDjose;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +70,38 @@ public class Landmarks extends AppCompatActivity{
                 openActivityAbadSantos();
             }
         });
+
+        buttonBlumentritt = (Button) findViewById(R.id.button_blumentritt);
+        buttonBlumentritt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityBlumentritt();
+            }
+        });
+
+        buttonTayuman = (Button) findViewById(R.id.button_tayuman);
+        buttonTayuman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityTayuman();
+            }
+        });
+
+        buttonBambang = (Button) findViewById(R.id.button_bambang);
+        buttonBambang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityBambang();
+            }
+        });
+
+        buttonDjose = (Button) findViewById(R.id.button_djose);
+        buttonDjose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityDjose();
+            }
+        });
     }
 
 
@@ -105,6 +137,26 @@ public class Landmarks extends AppCompatActivity{
 
     public void openActivityAbadSantos() {
         Intent intent = new Intent(this, AbadSantos.class);
+        startActivity(intent);
+    }
+
+    public void openActivityBlumentritt() {
+        Intent intent = new Intent(this, Blumentritt.class);
+        startActivity(intent);
+    }
+
+    public void openActivityTayuman() {
+        Intent intent = new Intent(this, Tayuman.class);
+        startActivity(intent);
+    }
+
+    public void openActivityBambang() {
+        Intent intent = new Intent(this, Bambang.class);
+        startActivity(intent);
+    }
+
+    public void openActivityDjose() {
+        Intent intent = new Intent(this, DoroteoJose.class);
         startActivity(intent);
     }
 }

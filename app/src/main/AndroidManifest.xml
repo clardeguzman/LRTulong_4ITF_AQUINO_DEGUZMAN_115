@@ -31,5 +31,9 @@
         <activity android:name=".Fifthave"/>
         <activity android:name=".Rpapa"/>
         <activity android:name=".AbadSantos"/>
+        <activity android:name=".Blumentritt"/>
+        <activity android:name=".Tayuman"/>
+        <activity android:name=".Bambang"/>
+        <activity android:name=".DoroteoJose"/>
     </application>
 </manifest>
