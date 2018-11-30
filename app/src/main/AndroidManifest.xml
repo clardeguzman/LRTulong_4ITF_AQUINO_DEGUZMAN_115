@@ -35,5 +35,10 @@
         <activity android:name=".Tayuman"/>
         <activity android:name=".Bambang"/>
         <activity android:name=".DoroteoJose"/>
+        <activity android:name=".Carriedo"/>
+        <activity android:name=".Central"/>
+        <activity android:name=".UNAve"/>
+        <activity android:name=".PedroGil"/>
+        <activity android:name=".Quirino"/>
     </application>
 </manifest>
