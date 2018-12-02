@@ -1,6 +1,7 @@
 package com.aquino.deguzman;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,6 +38,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
         b1.setOnClickListener(this); // calling onClick() method
         Button b2 = (Button) findViewById(R.id.button2);
         b2.setOnClickListener(this);
+
 
     }
 
@@ -185,6 +187,9 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
         String state = s2.getSelectedItem().toString();
         ImageView im=(ImageView)findViewById(R.id.imageView2);
 
+//        Intent mIntent = getIntent();
+//        int intValue = mIntent.getIntExtra("ADJUSTED_PRICE", 0);
+
 
         switch (v.getId()) {
 
@@ -201,8 +206,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Gil Puyat":
                             case "Vito Cruz":
                             case "Quirino":
+//                                t1.setText(Integer.toString(intValue));
                                 t1.setText("P15");
-
                                 break;
 
                             case "Pedro Gil":
