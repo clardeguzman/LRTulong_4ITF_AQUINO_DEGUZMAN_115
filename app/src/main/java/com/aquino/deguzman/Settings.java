@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 
 public class Settings extends AppCompatActivity {
     private Button buttonAbout;
+    private Button buttonAdjust;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,10 +23,23 @@ public class Settings extends AppCompatActivity {
                 openActivityAbout();
             }
         });
+
+        buttonAdjust = (Button) findViewById(R.id.button_adjust);
+        buttonAdjust.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityAdjust();
+            }
+        });
     }
 
     public void openActivityAbout() {
         Intent intent = new Intent(this, About.class);
+        startActivity(intent);
+    }
+
+    public void openActivityAdjust() {
+        Intent intent = new Intent(this, adjustprice.class);
         startActivity(intent);
     }
 }
