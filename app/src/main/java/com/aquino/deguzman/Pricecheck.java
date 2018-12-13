@@ -207,7 +207,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Vito Cruz":
                             case "Quirino":
 //                                t1.setText(Integer.toString(intValue));
-                                t1.setText("P15");
+                                t1.setText("40");
                                 break;
 
                             case "Pedro Gil":
@@ -216,7 +216,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Bambang":
-                                t1.setText("P20");
+                                t1.setText("50");
 
                                 break;
 
@@ -228,7 +228,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P30");
+                                t1.setText("60");
 
                                 break;
                         }
