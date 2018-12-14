@@ -5,15 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class adjustprice extends AppCompatActivity {
 
-    TextView showValue, minfare;
+    TextView showValue;
     int counter = 0;
-    int fare = 15;
-    Button toast;
+    Button btn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,17 +22,17 @@ public class adjustprice extends AppCompatActivity {
         setContentView(R.layout.activity_adjustprice);
 
         showValue = (TextView) findViewById(R.id.counterValue);
+        btn = (Button) findViewById(R.id.button_adjustprice);
 
-        toast = (Button) findViewById(R.id.button_adjustprice);
-
-        toast.setOnClickListener(new View.OnClickListener() {
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(adjustprice.this,"Price Adjusted",Toast.LENGTH_LONG).show();
-                fare = fare+counter;
 
-//                Intent i = new Intent(adjustprice.this, Pricecheck.class);
-//                i.putExtra("ADJUSTED_PRICE", counter);
+                Intent intent = new Intent(adjustprice.this, Pricecheck.class);
+                intent.putExtra("ADJUSTED_PRICE", counter);
+                startActivity(intent);
+                
             }
         });
     }

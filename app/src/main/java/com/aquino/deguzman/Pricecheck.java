@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
 
     Spinner s1,s2;
@@ -187,9 +189,10 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
         String state = s2.getSelectedItem().toString();
         ImageView im=(ImageView)findViewById(R.id.imageView2);
         int price;
+        int addedValue=0;
 
-//        Intent mIntent = getIntent();
-//        int intValue = mIntent.getIntExtra("ADJUSTED_PRICE", 0);
+        Intent mIntent = getIntent();
+        int intValue = mIntent.getIntExtra("ADJUSTED_PRICE", 0);
 
 
         switch (v.getId()) {
@@ -206,7 +209,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Gil Puyat":
                             case "Vito Cruz":
                             case "Quirino":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -216,7 +219,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Bambang":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -228,7 +231,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -242,7 +245,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Vito Cruz":
                             case "Quirino":
                             case "Pedro Gil":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -252,7 +255,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Doroteo Jose":
                             case "Bambang":
                             case "Tayuman":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -263,7 +266,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -278,7 +281,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Quirino":
                             case "Pedro Gil":
                             case "UN Ave":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -288,7 +291,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Bambang":
                             case "Tayuman":
                             case "Blumentritt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -298,7 +301,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -313,7 +316,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Quirino":
                             case "Pedro Gil":
                             case "UN Ave":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -324,7 +327,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Tayuman":
                             case "Blumentritt":
                             case "Abad Santos":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -333,7 +336,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -350,7 +353,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "UN Ave":
                             case "Central":
                             case "Carriedo":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -360,7 +363,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -368,7 +371,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -386,7 +389,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Central":
                             case "Carriedo":
                             case "Doroteo Jose":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -396,14 +399,14 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Abad Santos":
                             case "R. Papa":
                             case "5th Ave":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -421,7 +424,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Bambang":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -432,13 +435,13 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -456,7 +459,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Doroteo Jose":
                             case "Bambang":
                             case "Tayuman":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -467,13 +470,13 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -491,7 +494,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Tayuman":
                             case "Blumentritt":
                             case "Abad Santos":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -503,12 +506,12 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -527,7 +530,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -538,12 +541,12 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -562,7 +565,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Abad Santos":
                             case "R. Papa":
                             case "5th Ave":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -573,12 +576,12 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Vito Cruz":
                             case "Monumento":
                             case "Balintawak":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -596,7 +599,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Abad Santos":
                             case "R. Papa":
                             case "5th Ave":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -609,7 +612,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -627,7 +630,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -639,12 +642,12 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Pedro Gil":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -661,7 +664,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -673,13 +676,13 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "UN Ave":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -696,7 +699,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -707,14 +710,14 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "UN Ave":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
                             case "Libertad":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -731,7 +734,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -741,7 +744,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "UN Ave":
                             case "Central":
                             case "Roosevelt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -749,7 +752,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "EDSA":
                             case "Libertad":
                             case "Gil Puyat":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -765,7 +768,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "Monumento":
                             case "Balintawak":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -775,7 +778,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Central":
                             case "Carriedo":
                             case "Roosevelt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -784,7 +787,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Libertad":
                             case "Gil Puyat":
                             case "Vito Cruz":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -799,7 +802,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Balintawak":
                             case "Roosevelt":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -809,7 +812,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Bambang":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -819,7 +822,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Gil Puyat":
                             case "Vito Cruz":
                             case "Quirino":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -831,7 +834,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Monumento":
                             case "Roosevelt":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -842,7 +845,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Tayuman":
                             case "Blumentritt":
                             case "Abad Santos":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -854,7 +857,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Quirino":
                             case "Pedro Gil":
                             case "UN Ave":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -864,7 +867,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                         switch (state) {
                             case "Monumento":
                             case "Balintawak":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -874,7 +877,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Abad Santos":
                             case "R. Papa":
                             case "5th Ave":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -889,7 +892,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Central":
                             case "Carriedo":
                             case "Doroteo Jose":
-                                price = 30;
+                                price = 30 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -906,90 +909,90 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Baclaran":
                         switch (state) {
                             case "Baclaran":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Doroteo Jose":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
                             case "Blumentritt":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 24;
+                                price = 24 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 25;
+                                price = 25 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 26;
+                                price = 26 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 29;
+                                price = 29 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -998,86 +1001,86 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "EDSA":
                         switch (state) {
                             case "EDSA":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Libertad":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Pedro Gil":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Bambang":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
                             case "R. Papa":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 24;
+                                price = 24 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 27;
+                                price = 27 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 29;
+                                price = 29 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1086,82 +1089,82 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Libertad":
                         switch (state) {
                             case "Libertad":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "Gil Puyat":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Vito Cruz":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Pedro Gil":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Bambang":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
                             case "R. Papa":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 26;
+                                price = 26 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 29;
+                                price = 29 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1170,80 +1173,80 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Gil Puyat":
                         switch (state) {
                             case "Gil Puyat":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Vito Cruz":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
                             case "Quirino":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
 
                             case "Bambang":
                             case "Tayuman":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
 
                             case "R. Papa":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 25;
+                                price = 25 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 27;
+                                price = 27 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1252,78 +1255,78 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Vito Cruz":
                         switch (state) {
                             case "Vito Cruz":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Quirino":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Pedro Gil":
                             case "UN Ave":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 26;
+                                price = 26 + intValue;
                                 t1.setText(Integer.toString(price));;
                                 break;
                         }
@@ -1332,74 +1335,74 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Quirino":
                         switch (state) {
                             case "Quirino":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Pedro Gil":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "UN Ave":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Central":
                             case "Carriedo":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
                             case "Doroteo Jose":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 25;
+                                price = 25 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1408,19 +1411,19 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Pedro Gil":
                         switch (state) {
                             case "Pedro Gil":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "UN Ave":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Central":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -1428,50 +1431,50 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Gil Puyat":
                             case "Carriedo":
                             case "Doroteo Jose":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "Bambang":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Tayuman":
                             case "Blumentritt":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 24;
+                                price = 24 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1480,66 +1483,66 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "UN Ave":
                         switch (state) {
                             case "UN Ave":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "Central":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Quirino":
                             case "Carriedo":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Doroteo Jose":
                             case "Bambang":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Tayuman":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "Blumentritt":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Abad Santos":
                             case "R. Papa":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1548,62 +1551,62 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Central":
                         switch (state) {
                             case "Central":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "Carriedo":
                             case "Doroteo Jose":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "Bambang":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Tayuman":
                             case "Blumentritt":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Abad Santos":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
                             case "R. Papa":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "5th Ave":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Monumento":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1612,66 +1615,66 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Carriedo":
                         switch (state) {
                             case "Carriedo":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Doroteo Jose":
                             case "Bambang":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "Tayuman":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Pedro Gil":
                             case "Blumentritt":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Abad Santos":
                             case "R. Papa":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "5th Ave":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Monumento":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1680,7 +1683,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Doroteo Jose":
                         switch (state) {
                             case "Doroteo Jose":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -1688,54 +1691,54 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Carriedo":
                             case "Bambang":
                             case "Tayuman":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
                             case "Abad Santos":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "R. Papa":
                             case "5th Ave":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Monumento":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
                             case "Balintawak":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1744,7 +1747,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Bambang":
                         switch (state) {
                             case "Bambang":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -1752,54 +1755,54 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Doroteo Jose":
                             case "Tayuman":
                             case "Blumentritt":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Abad Santos":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "R. Papa":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "5th Ave":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Monumento":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
                             case "Balintawak":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Roosevelt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1808,66 +1811,66 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Tayuman":
                         switch (state) {
                             case "Tayuman":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Bambang":
                             case "Blumentritt":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Abad Santos":
                             case "R. Papa":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "5th Ave":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "Monumento":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Pedro Gil":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Balintawak":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "Roosevelt":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1876,66 +1879,66 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Blumentritt":
                         switch (state) {
                             case "Blumentritt":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
                             case "Abad Santos":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "R. Papa":
                             case "5th Ave":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Balintawak":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Roosevelt":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -1944,26 +1947,26 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Abad Santos":
                         switch (state) {
                             case "Abad Santos":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
                             case "R. Papa":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
                             case "5th Ave":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Monumento":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -1974,40 +1977,40 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                                 break;
 
                             case "Balintawak":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Roosevelt":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -2016,74 +2019,74 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "R. Papa":
                         switch (state) {
                             case "R. Papa":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
                             case "5th Ave":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
                             case "Blumentritt":
                             case "Monumento":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Balintawak":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "Roosevelt":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -2092,78 +2095,78 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "5th Ave":
                         switch (state) {
                             case "5th Ave":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
                             case "Monumento":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
                             case "Blumentritt":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Bambang":
                             case "Balintawak":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Roosevelt":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                price = 24;
+                                price = 24 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -2172,82 +2175,82 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Monumento":
                         switch (state) {
                             case "Monumento":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 12;
+                                price = 12 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
                             case "Balintawak":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                price = 14;
+                                price = 14 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
                             case "Blumentritt":
                             case "Roosevelt":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Doroteo Jose":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                price = 24;
+                                price = 24 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                price = 25;
+                                price = 25 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -2256,67 +2259,67 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Balintawak":
                         switch (state) {
                             case "Balintawak":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
                             case "Roosevelt":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
                             case "5th Ave":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 24;
+                                price = 24 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
-                                price = 25;
+                                price = 25 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
@@ -2327,7 +2330,7 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
 
                             case "Baclaran":
                             case "EDSA":
-                                price = 27;
+                                price = 27 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
@@ -2336,90 +2339,90 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                     case "Roosevelt":
                         switch (state) {
                             case "Roosevelt":
-                                price = 11;
+                                price = 11 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                price = 13;
+                                price = 13 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                price = 15;
+                                price = 15 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                price = 16;
+                                price = 16 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                price = 17;
+                                price = 17 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                price = 18;
+                                price = 18 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                price = 19;
+                                price = 19 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
-                                price = 20;
+                                price = 20 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
-                                price = 21;
+                                price = 21 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                price = 22;
+                                price = 22 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                price = 23;
+                                price = 23 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                price = 24;
+                                price = 24 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                price = 25;
+                                price = 25 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                price = 26;
+                                price = 26 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
-                                price = 27;
+                                price = 27 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                price = 28;
+                                price = 28 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                price = 29;
+                                price = 29 + intValue;
                                 t1.setText(Integer.toString(price));
                                 break;
                         }
