@@ -186,13 +186,13 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
         String country = s1.getSelectedItem().toString();
         String state = s2.getSelectedItem().toString();
         ImageView im=(ImageView)findViewById(R.id.imageView2);
+        int price;
 
 //        Intent mIntent = getIntent();
 //        int intValue = mIntent.getIntExtra("ADJUSTED_PRICE", 0);
 
 
         switch (v.getId()) {
-
             case R.id.button:
                 im.setImageResource(R.drawable.sjt);
                 t2.setText("Single Journey Ticket Price");
@@ -206,8 +206,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Gil Puyat":
                             case "Vito Cruz":
                             case "Quirino":
-//                                t1.setText(Integer.toString(intValue));
-                                t1.setText("40");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
@@ -216,8 +216,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Bambang":
-                                t1.setText("50");
-
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
@@ -228,10 +228,11 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("60");
-
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "EDSA":
                         switch (state) {
@@ -241,8 +242,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Vito Cruz":
                             case "Quirino":
                             case "Pedro Gil":
-                                t1.setText("P15");
-
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
@@ -251,8 +252,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Doroteo Jose":
                             case "Bambang":
                             case "Tayuman":
-                                t1.setText("P20");
-
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
@@ -262,10 +263,11 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Libertad":
                         switch (state) {
@@ -276,8 +278,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Quirino":
                             case "Pedro Gil":
                             case "UN Ave":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
@@ -286,8 +288,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Bambang":
                             case "Tayuman":
                             case "Blumentritt":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
@@ -296,10 +298,11 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Gil Puyat":
                         switch (state) {
@@ -310,8 +313,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Quirino":
                             case "Pedro Gil":
                             case "UN Ave":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
@@ -321,8 +324,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Tayuman":
                             case "Blumentritt":
                             case "Abad Santos":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
@@ -330,10 +333,11 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Vito Cruz":
                         switch (state) {
@@ -346,8 +350,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "UN Ave":
                             case "Central":
                             case "Carriedo":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
@@ -356,18 +360,19 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Quirino":
                         switch (state) {
@@ -381,8 +386,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Central":
                             case "Carriedo":
                             case "Doroteo Jose":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
@@ -391,17 +396,18 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Abad Santos":
                             case "R. Papa":
                             case "5th Ave":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Pedro Gil":
                         switch (state) {
@@ -415,8 +421,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Bambang":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
@@ -426,16 +432,17 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "UN Ave":
                         switch (state) {
@@ -449,8 +456,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Doroteo Jose":
                             case "Bambang":
                             case "Tayuman":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
@@ -460,16 +467,17 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Central":
                         switch (state) {
@@ -483,8 +491,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Tayuman":
                             case "Blumentritt":
                             case "Abad Santos":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
@@ -495,15 +503,16 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Carriedo":
                         switch (state) {
@@ -518,8 +527,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Blumentritt":
                             case "Abad Santos":
                             case "R. Papa":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
@@ -529,15 +538,16 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Doroteo Jose":
                         switch (state) {
@@ -552,8 +562,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Abad Santos":
                             case "R. Papa":
                             case "5th Ave":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
@@ -563,15 +573,16 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Vito Cruz":
                             case "Monumento":
                             case "Balintawak":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Bambang":
                         switch (state) {
@@ -585,8 +596,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Abad Santos":
                             case "R. Papa":
                             case "5th Ave":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
@@ -598,10 +609,11 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Monumento":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Tayuman":
                         switch (state) {
@@ -615,8 +627,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
@@ -627,15 +639,16 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Pedro Gil":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Blumentritt":
                         switch (state) {
@@ -648,8 +661,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
@@ -660,16 +673,17 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "UN Ave":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Abad Santos":
                         switch (state) {
@@ -682,8 +696,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "5th Ave":
                             case "Monumento":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
@@ -693,17 +707,18 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "UN Ave":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
                             case "Libertad":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "R. Papa":
                         switch (state) {
@@ -716,8 +731,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Monumento":
                             case "Balintawak":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
@@ -726,18 +741,19 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "UN Ave":
                             case "Central":
                             case "Roosevelt":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
                             case "Libertad":
                             case "Gil Puyat":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "5th Ave":
                         switch (state) {
@@ -749,8 +765,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "R. Papa":
                             case "Monumento":
                             case "Balintawak":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
@@ -759,8 +775,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Central":
                             case "Carriedo":
                             case "Roosevelt":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
@@ -768,10 +784,11 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Libertad":
                             case "Gil Puyat":
                             case "Vito Cruz":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Monumento":
                         switch (state) {
@@ -782,8 +799,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Balintawak":
                             case "Roosevelt":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
@@ -792,8 +809,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Bambang":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
@@ -802,10 +819,11 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Gil Puyat":
                             case "Vito Cruz":
                             case "Quirino":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Balintawak":
                         switch (state) {
@@ -813,8 +831,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "5th Ave":
                             case "Monumento":
                             case "Roosevelt":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
@@ -824,8 +842,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Tayuman":
                             case "Blumentritt":
                             case "Abad Santos":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
@@ -836,17 +854,18 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Quirino":
                             case "Pedro Gil":
                             case "UN Ave":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Roosevelt":
                         switch (state) {
                             case "Monumento":
                             case "Balintawak":
-                                t1.setText("P15");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
@@ -855,8 +874,8 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Abad Santos":
                             case "R. Papa":
                             case "5th Ave":
-                                t1.setText("P20");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
@@ -870,12 +889,11 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                             case "Central":
                             case "Carriedo":
                             case "Doroteo Jose":
-                                t1.setText("P30");
-                                t2.setText("Single Journey Ticket Price");
+                                price = 30;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
-
-
+                        break;
                 }
                 break;
 
@@ -883,1508 +901,1529 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
                 im.setImageResource(R.drawable.svc);
                 t1.setTextColor(Color.parseColor("#FFFFFF"));
                 t2.setTextColor(Color.parseColor("#FFFFFF"));
+                t2.setText("Stored Value Card Price");
                 switch (country) {
                     case "Baclaran":
                         switch (state) {
                             case "Baclaran":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                t1.setText("P18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Doroteo Jose":
-                                t1.setText("P19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
                             case "Blumentritt":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("P24");
-                                t2.setText("Stored Value Card Price");
+                                price = 24;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P25");
-                                t2.setText("Stored Value Card Price");
+                                price = 25;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P27");
-                                t2.setText("Stored Value Card Price");
+                                price = 26;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P29");
-                                t2.setText("Stored Value Card Price");
+                                price = 29;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "EDSA":
                         switch (state) {
                             case "EDSA":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Libertad":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Pedro Gil":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
-                                t1.setText("P18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Bambang":
-                                t1.setText("P19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
                             case "R. Papa":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P24");
-                                t2.setText("Stored Value Card Price");
+                                price = 24;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P27");
-                                t2.setText("Stored Value Card Price");
+                                price = 27;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P29");
-                                t2.setText("Stored Value Card Price");
+                                price = 29;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Libertad":
                         switch (state) {
                             case "Libertad":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "Gil Puyat":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Vito Cruz":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Pedro Gil":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Bambang":
-                                t1.setText("P18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
-                                t1.setText("P19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
                             case "R. Papa":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P26");
-                                t2.setText("Stored Value Card Price");
+                                price = 26;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P28");
-                                t2.setText("Stored Value Card Price");
+                                price = 29;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Gil Puyat":
                         switch (state) {
                             case "Gil Puyat":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Vito Cruz":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
                             case "Quirino":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
 
                             case "Bambang":
                             case "Tayuman":
-                                t1.setText("P18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                t1.setText("P19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
 
                             case "R. Papa":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P25");
-                                t2.setText("Stored Value Card Price");
+                                price = 25;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P27");
-                                t2.setText("Stored Value Card Price");
+                                price = 27;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Vito Cruz":
                         switch (state) {
                             case "Vito Cruz":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Quirino":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Pedro Gil":
                             case "UN Ave":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                t1.setText("P18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                t1.setText("P19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P26");
-                                t2.setText("Stored Value Card Price");
+                                price = 26;
+                                t1.setText(Integer.toString(price));;
                                 break;
                         }
+                        break;
 
                     case "Quirino":
                         switch (state) {
                             case "Quirino":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Pedro Gil":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "UN Ave":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Central":
                             case "Carriedo":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
                             case "Doroteo Jose":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                t1.setText("P18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                t1.setText("P19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P25");
-                                t2.setText("Stored Value Card Price");
+                                price = 25;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Pedro Gil":
                         switch (state) {
                             case "Pedro Gil":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "UN Ave":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Central":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
                             case "Carriedo":
                             case "Doroteo Jose":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "Bambang":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Tayuman":
                             case "Blumentritt":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                t1.setText("P18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("P19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P24");
-                                t2.setText("Stored Value Card Price");
+                                price = 24;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "UN Ave":
                         switch (state) {
                             case "UN Ave":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "Central":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Quirino":
                             case "Carriedo":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Doroteo Jose":
                             case "Bambang":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Tayuman":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "Blumentritt":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Abad Santos":
                             case "R. Papa":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Central":
                         switch (state) {
                             case "Central":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "Carriedo":
                             case "Doroteo Jose":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "Bambang":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Tayuman":
                             case "Blumentritt":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Abad Santos":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
                             case "R. Papa":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "5th Ave":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Monumento":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Carriedo":
                         switch (state) {
                             case "Carriedo":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Doroteo Jose":
                             case "Bambang":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "Tayuman":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Pedro Gil":
                             case "Blumentritt":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
                             case "Abad Santos":
                             case "R. Papa":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "5th Ave":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Monumento":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Doroteo Jose":
                         switch (state) {
                             case "Doroteo Jose":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
                             case "Bambang":
                             case "Tayuman":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
                             case "Abad Santos":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "R. Papa":
                             case "5th Ave":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Monumento":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
                             case "Balintawak":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Roosevelt":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Bambang":
                         switch (state) {
                             case "Bambang":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Tayuman":
                             case "Blumentritt":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Abad Santos":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "R. Papa":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "5th Ave":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Monumento":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
                             case "Balintawak":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "Roosevelt":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Tayuman":
                         switch (state) {
                             case "Tayuman":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Bambang":
                             case "Blumentritt":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Abad Santos":
                             case "R. Papa":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "5th Ave":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "Monumento":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Pedro Gil":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Balintawak":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
                             case "Roosevelt":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Blumentritt":
                         switch (state) {
                             case "Blumentritt":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
                             case "Abad Santos":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "R. Papa":
                             case "5th Ave":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Balintawak":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
                             case "Roosevelt":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Abad Santos":
                         switch (state) {
                             case "Abad Santos":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
                             case "R. Papa":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
                             case "5th Ave":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Monumento":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
                             case "Roosevelt":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "R. Papa":
                         switch (state) {
                             case "R. Papa":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
                             case "5th Ave":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
                             case "Blumentritt":
                             case "Monumento":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Doroteo Jose":
                             case "Balintawak":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
                             case "Roosevelt":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "5th Ave":
                         switch (state) {
                             case "5th Ave":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
                             case "Monumento":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
                             case "Blumentritt":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
                             case "Bambang":
                             case "Balintawak":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Roosevelt":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                t1.setText("P24");
-                                t2.setText("Stored Value Card Price");
+                                price = 24;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Monumento":
                         switch (state) {
                             case "Monumento":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("P12");
-                                t2.setText("Stored Value Card Price");
+                                price = 12;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
                             case "Balintawak":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                t1.setText("P14");
-                                t2.setText("Stored Value Card Price");
+                                price = 14;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Tayuman":
                             case "Blumentritt":
                             case "Roosevelt":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Carriedo":
                             case "Doroteo Jose":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
                             case "Gil Puyat":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "EDSA":
-                                t1.setText("P24");
-                                t2.setText("Stored Value Card Price");
+                                price = 24;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
-                                t1.setText("P25");
-                                t2.setText("Stored Value Card Price");
+                                price = 25;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Balintawak":
                         switch (state) {
                             case "Balintawak":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
                             case "Roosevelt":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
                             case "5th Ave":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
                             case "UN Ave":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P24");
-                                t2.setText("Stored Value Card Price");
+                                price = 24;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
-                                t1.setText("P25");
-                                t2.setText("Stored Value Card Price");
+                                price = 25;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                t1.setText("P26");
-                                t2.setText("Stored Value Card Price");
+                                price = 26;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                t1.setText("P27");
-                                t2.setText("Stored Value Card Price");
+                                price = 27;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
 
                     case "Roosevelt":
                         switch (state) {
                             case "Roosevelt":
-                                t1.setText("P11");
-                                t2.setText("Stored Value Card Price");
+                                price = 11;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Balintawak":
-                                t1.setText("P13");
-                                t2.setText("Stored Value Card Price");
+                                price = 13;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Monumento":
-                                t1.setText("P15");
-                                t2.setText("Stored Value Card Price");
+                                price = 15;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "5th Ave":
-                                t1.setText("P16");
-                                t2.setText("Stored Value Card Price");
+                                price = 16;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "R. Papa":
-                                t1.setText("P17");
-                                t2.setText("Stored Value Card Price");
+                                price = 17;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Abad Santos":
-                                t1.setText("18");
-                                t2.setText("Stored Value Card Price");
+                                price = 18;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Blumentritt":
-                                t1.setText("19");
-                                t2.setText("Stored Value Card Price");
+                                price = 19;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Bambang":
                             case "Tayuman":
-                                t1.setText("P20");
-                                t2.setText("Stored Value Card Price");
+                                price = 20;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Doroteo Jose":
-                                t1.setText("P21");
-                                t2.setText("Stored Value Card Price");
+                                price = 21;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Central":
                             case "Carriedo":
-                                t1.setText("P22");
-                                t2.setText("Stored Value Card Price");
+                                price = 22;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "UN Ave":
-                                t1.setText("P23");
-                                t2.setText("Stored Value Card Price");
+                                price = 23;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Pedro Gil":
-                                t1.setText("P24");
-                                t2.setText("Stored Value Card Price");
+                                price = 24;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Quirino":
-                                t1.setText("P25");
-                                t2.setText("Stored Value Card Price");
+                                price = 25;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Vito Cruz":
-                                t1.setText("P26");
-                                t2.setText("Stored Value Card Price");
+                                price = 26;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Gil Puyat":
-                                t1.setText("P27");
-                                t2.setText("Stored Value Card Price");
+                                price = 27;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Libertad":
-                                t1.setText("P28");
-                                t2.setText("Stored Value Card Price");
+                                price = 28;
+                                t1.setText(Integer.toString(price));
                                 break;
 
                             case "Baclaran":
                             case "EDSA":
-                                t1.setText("P29");
-                                t2.setText("Stored Value Card Price");
+                                price = 29;
+                                t1.setText(Integer.toString(price));
                                 break;
                         }
+                        break;
                 }
                 break;
 
@@ -2392,11 +2431,6 @@ public class Pricecheck extends AppCompatActivity implements AdapterView.OnItemS
 
                 break;
         }
-
-
-
-
-
 
     }
 }
